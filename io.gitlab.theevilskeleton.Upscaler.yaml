@@ -8,6 +8,7 @@ finish-args:
 - --socket=fallback-x11
 - --device=dri
 - --socket=wayland
+- --talk-name=org.freedesktop.portal.OpenURI
 cleanup:
 - /include
 - /lib/pkgconfig
@@ -41,5 +42,5 @@ modules:
   sources:
   - type: git
     url: https://gitlab.com/TheEvilSkeleton/Upscaler
-    tag: '1.0.0'
-    commit: 712c262a3453ea37344424c213362d0234582d60
+    tag: '1.1.1'
+    commit: f236353b65edd3581482a2e69e77be254dddbb34
