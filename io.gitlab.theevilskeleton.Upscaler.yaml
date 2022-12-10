@@ -42,5 +42,5 @@ modules:
   sources:
   - type: git
     url: https://gitlab.com/TheEvilSkeleton/Upscaler
-    tag: '1.1.1'
-    commit: f236353b65edd3581482a2e69e77be254dddbb34
+    tag: '1.1.2'
+    commit: 5aaab9ccaf56b3c7a0eb7d1dbba372d8ff970d69
