@@ -1,0 +1,14 @@
+{
+    "name": "python3-vulkan",
+    "buildsystem": "simple",
+    "build-commands": [
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"vulkan\" --no-build-isolation"
+    ],
+    "sources": [
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/82/2b/4ffb67f251cba6a39a0899b1a0042f2d31d8b8f57aa5d0707ba2bf36fce3/vulkan-1.1.99.1.tar.gz",
+            "sha256": "4befc458dceac21a9664f628a228283812094cadaed5dbbc1cb2abb532523b7f"
+        }
+    ]
+}
