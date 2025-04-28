@@ -36,9 +36,9 @@ modules:
   - python3 setup.py install --prefix=/app --root=/
   sources:
   - type: git
-    url: https://github.com/python-pillow/Pillow
-    tag: 11.1.0
-    commit: 4c1aed801e43c6b307e7135279ca1dbc02bbf052
+    url: https://github.com/python-pillow/Pillow.git
+    tag: 11.2.1
+    commit: 339bc5db93bd95decf65a59fab273f300db6594d
 - name: upscayl-ncnn
   buildsystem: simple
   build-commands:
@@ -61,5 +61,5 @@ modules:
   sources:
   - type: git
     url: https://gitlab.gnome.org/World/Upscaler.git
-    tag: '1.4.1'
-    commit: f2ca61ec586e1244a2cdfae015c66ec0d994bd88
+    tag: '1.5.0'
+    commit: d2fa3d8cf7a12fa18cfd940eeda7533058408905
