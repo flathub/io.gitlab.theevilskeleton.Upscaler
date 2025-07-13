@@ -19,7 +19,6 @@ cleanup:
 - '*.la'
 - '*.a'
 modules:
-- python3-cffi.json
 - python3-vulkan.json
 - name: blueprint-compiler
   buildsystem: meson
@@ -28,8 +27,8 @@ modules:
   sources:
   - type: git
     url: https://gitlab.gnome.org/jwestman/blueprint-compiler.git
-    tag: v0.16.0
-    commit: 04ef0944db56ab01307a29aaa7303df6067cb3c0
+    tag: 0.18.0
+    commit: 07c9c9df9cd1b6b4454ecba21ee58211e9144a4b
 - name: python-pillow
   buildsystem: simple
   build-commands:
@@ -37,8 +36,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/python-pillow/Pillow.git
-    tag: 11.2.1
-    commit: 339bc5db93bd95decf65a59fab273f300db6594d
+    tag: 11.3.0
+    commit: 89f1f4626a2aaf5f3d5ca6437f41def2998fbe09
 - name: upscayl-ncnn
   buildsystem: simple
   build-commands:
