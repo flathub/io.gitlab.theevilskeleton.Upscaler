@@ -1,6 +1,6 @@
 id: io.gitlab.theevilskeleton.Upscaler
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: upscaler
 finish-args:
@@ -20,15 +20,6 @@ cleanup:
 - '*.a'
 modules:
 - python3-vulkan.json
-- name: blueprint-compiler
-  buildsystem: meson
-  cleanup:
-  - "*"
-  sources:
-  - type: git
-    url: https://gitlab.gnome.org/jwestman/blueprint-compiler.git
-    tag: 0.18.0
-    commit: 07c9c9df9cd1b6b4454ecba21ee58211e9144a4b
 - name: python-pillow
   buildsystem: simple
   build-commands:
