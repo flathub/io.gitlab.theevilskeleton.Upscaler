@@ -51,5 +51,5 @@ modules:
   sources:
   - type: git
     url: https://gitlab.gnome.org/World/Upscaler.git
-    tag: '1.6.2'
-    commit: 6c8ad696aac5b2a0d184f56d43397594e429fc29
+    tag: '1.6.3'
+    commit: a14bc6e8af3bd9ce491060ce82cd10f4efbea16d
